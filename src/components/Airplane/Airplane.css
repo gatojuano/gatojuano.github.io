@@ -1,0 +1,35 @@
+.airplane-section {
+  position: relative;
+  width: 100%;
+  height: 300vh; /* Contenedor de scroll de 300vh */
+  background: linear-gradient(180deg, #1a1a2e 0%, #16213e 25%, #0f3460 50%, #0b0b14 75%, #0b0b14 100%);
+  overflow: hidden;
+}
+
+.airplane-sticky {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 100vh; /* Contenedor sticky de 100vh */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.airplane-svg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.airplane {
+  position: absolute;
+  width: 68px;
+  height: 68px;
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8));
+  z-index: 10;
+  transform-origin: center center;
+}
